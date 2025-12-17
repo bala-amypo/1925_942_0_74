@@ -1,4 +1,4 @@
-3package com.example.demo.entity;
+package com.example.demo.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -7,8 +7,8 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Stuentity{
-    @id
-    @GenerativeValue(strategy=GenerationType.IDENTITY)
+    @Id
+    @GenerationValue(strategy=GenerationType.IDENTITY)
     private Long id;
     private String name;
     private String email;
